@@ -1,0 +1,34 @@
+# Час бою в секундах
+combat-duration: 30
+
+# Вбити гравця якщо вийшов під час бою
+kill-on-logout: true
+
+# Блокувати ВСІ команди під час бою (true = всі, false = тільки зі списку)
+block-all-commands: true
+
+# Список заборонених команд (працює якщо block-all-commands: false)
+blocked-commands:
+  - home
+  - spawn
+  - hub
+  - lobby
+  - tp
+  - tpa
+  - warp
+  - back
+  - rtp
+  - wild
+
+# Скорборд
+scoreboard:
+  title: "&c&l⚔ ПВП БІЙ ⚔"
+  separator: "&8&m-----------"
+  player-line: "&f{player} &7- &c{time}с"
+
+# Повідомлення
+messages:
+  combat-start: "&c⚔ Ви в бою! Не використовуйте команди!"
+  combat-end: "&a✔ Ви вийшли з бою!"
+  command-blocked: "&c✘ Не можна використовувати команди під час бою!"
+  logout-kill: "&c{player} &7вийшов під час бою і був вбитий!"
