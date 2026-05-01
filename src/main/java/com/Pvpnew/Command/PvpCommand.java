@@ -1,6 +1,6 @@
-package com.Pvpnew.Commands;
+package com.Pvpnew.Command;
 
-import com.pvpsystem.PvpPlugin;
+import com.Pvpnew.PvpPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
