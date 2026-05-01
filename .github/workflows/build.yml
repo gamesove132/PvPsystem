@@ -19,10 +19,10 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn package -f PvPnew/pom.xml
+        run: mvn clear package
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: PvPnew
-          path: PvPnew/target/PvPnew-1.0.0.jar
+          path: target/PvPnew-1.0.1.jar
