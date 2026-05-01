@@ -17,7 +17,7 @@ public class PvpListener implements Listener {
 
     private final PvpPlugin plugin;
 
-    public class Listener implements org.bukkit.event.Listener {
+    public PvpListener(PvpPlugin plugin)
         this.plugin = plugin;
     }
 
