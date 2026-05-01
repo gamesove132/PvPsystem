@@ -1,4 +1,4 @@
-package com.pvpsystem.commands;
+package com.Pvpnew.Commands;
 
 import com.pvpsystem.PvpPlugin;
 import org.bukkit.Bukkit;
