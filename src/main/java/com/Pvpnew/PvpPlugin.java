@@ -1,8 +1,8 @@
-package com.Pvpnew; // ТУТ МАЄ БУТИ Pvpnew, а не pvpsystem
+package com.pvpsystem;
 
-import com.Pvpnew.Command.PvpCommand;
-import com.Pvpnew.Listener.PvpListener;
-import com.Pvpnew.Manager.PvpManager;
+import com.pvpsystem.commands.PvpCommand;
+import com.pvpsystem.listeners.PvpListener;
+import com.pvpsystem.managers.PvpManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class PvpPlugin extends JavaPlugin {
