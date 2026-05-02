@@ -1,6 +1,6 @@
-package com.Pvpnew.Manager;
+package com.pvpsystem.managers;
 
-import com.Pvpnew.PvpPlugin;
+import com.pvpsystem.PvpPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
